@@ -44,3 +44,6 @@ frontend/.vite/
 # Backend (Node.js + Express + Socket.IO)
 backend/node_modules/
 backend/.env
+
+# Root
+node_modules
