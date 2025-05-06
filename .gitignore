@@ -1,0 +1,46 @@
+# Ignore environment variable files
+.env
+.env.*.local
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+# Ignore editor settings
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Ignore logs
+*.log
+logs/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Ignore test coverage
+coverage/
+*.lcov
+
+# Ignore cache/temp/build
+.cache/
+dist/
+build/
+tmp/
+temp/
+
+# Ignore MongoDB dumps (if any)
+dump/
+
+# Frontend (Vite + React)
+frontend/node_modules/
+frontend/dist/
+frontend/.env
+frontend/.vite/
+
+# Backend (Node.js + Express + Socket.IO)
+backend/node_modules/
+backend/.env
